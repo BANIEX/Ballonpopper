@@ -12,7 +12,7 @@ for(let i = 0;i < noOfBaloon; i++ ){
         console.log(numbers.size)
         if(numbers.size == 9){
             document.getElementsByClassName("container")[0].style.display = "none"
-            document.getElementsByClassName('show')[0].innerHTML = " YOU HAVE POPPED ALL THE BALLOON "
+            document.getElementsByClassName('show')[0].innerHTML = " YOU HAVE POPPED ALL THE BALLOONS. "
         
         }
 
